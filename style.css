@@ -46,3 +46,45 @@ body {
   margin-top: 45px;
   width: 100%;
 }
+.about-section-banner {
+  background-image: url(images/7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-position: center; */
+}
+.about-me-img {
+  width: 50%;
+}
+.about-me-img img {
+  width: 50%;
+  margin-left: 20%;
+  margin-top: 25px;
+  margin-bottom: 15%;
+}
+.about-me-width h2 {
+  margin-left: 25px;
+  font-size: 45px;
+  margin-top: 140px;
+  color: #806f6f;
+}
+.about-me-width {
+  width: 50%;
+}
+.about-me-width p {
+  font-size: 20px;
+  line-height: 30px;
+  color: rgb(124, 122, 122);
+  margin-left: 28px;
+  margin-right: 320px;
+  margin-bottom: 120px;
+}
+.about-me-width a {
+  text-decoration: none;
+  color: white;
+  margin-left: 3%;
+  background-image: linear-gradient(orange, tomato);
+  padding: 20px 35px;
+  border-radius: 50px;
+  box-shadow: 3px 0px 25px rgb(197 190 190);
+}
