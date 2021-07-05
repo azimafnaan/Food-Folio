@@ -93,7 +93,6 @@ body {
 
 .my-recipes {
   text-align: center;
-  margin-bottom: 45px;
 }
 .my-recipes h1 {
   font-size: 50px;
@@ -104,4 +103,25 @@ body {
   font-size: 20px;
   padding: 0px 480px;
   color: #6f6565;
+}
+.recipes-title {
+  width: 26%;
+  margin: 3%;
+  border: 15px solid;
+  box-shadow: -4px 7px 35px 17px rgb(113 113 113 / 20%);
+  border-color: white;
+  border-radius: 20px;
+}
+
+.recipes-title img {
+  width: 100%;
+}
+
+.recipes-title h1 {
+  font-size: 40px;
+}
+.recipes-title p {
+  padding-right: 25px;
+  font-size: 20px;
+  line-height: 30px;
 }
