@@ -4,9 +4,6 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.top-banner-img {
-  /* background-image: url(images/Person\ Image.png); */
-}
 .flexible-display {
   display: flex;
 }
@@ -52,7 +49,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /* background-position: center; */
 }
 .about-me-img {
   width: 50%;
@@ -61,7 +57,6 @@ body {
   width: 50%;
   margin-left: 20%;
   margin-top: 25px;
-  margin-bottom: 15%;
 }
 .about-me-width h2 {
   margin-left: 25px;
@@ -108,7 +103,7 @@ body {
   width: 26%;
   margin: 3%;
   border: 15px solid;
-  box-shadow: -4px 7px 35px 17px rgb(113 113 113 / 20%);
+  box-shadow: 3px 0px 25px rgb(232 218 218);
   border-color: white;
   border-radius: 20px;
 }
@@ -124,4 +119,60 @@ body {
   padding-right: 25px;
   font-size: 20px;
   line-height: 30px;
+}
+
+.Popular-item-section {
+  background-image: url(images/Frame\ 58.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 5px solid;
+  box-shadow: 3px 0px 25px rgb(232 218 218);
+  border-color: white;
+  margin: 50px;
+}
+
+.Popular-item-head {
+  text-align: center;
+  margin-bottom: 15px;
+  color: orange;
+  font-size: 50px;
+  padding-top: 50px;
+}
+
+.popular-item-list ul li {
+  list-style-type: none;
+}
+
+.popular-item-price ul li {
+  list-style-type: none;
+}
+
+.popular-item-list {
+  width: 50%;
+  padding-left: 28%;
+  color: tomato;
+  font-size: 25px;
+}
+.popular-item-price {
+  width: 50%;
+  font-size: 25px;
+  color: tomato;
+}
+
+.footer-section {
+  text-align: center;
+  margin-top: 100px;
+  background-color: black;
+}
+.footer-section h1 {
+  font-size: 50px;
+  color: white;
+  padding-top: 70px;
+  margin-bottom: 50px;
+}
+.footer-section p {
+  color: white;
+  padding-bottom: 150px;
+  font-size: 20px;
 }
